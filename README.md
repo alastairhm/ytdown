@@ -9,5 +9,5 @@ This repository provides an automated build for a lean [Youtube-dl](https://ytdl
 Simple download to MP4 format, see [Youtube-dl Docs](https://github.com/ytdl-org/youtube-dl/blob/master/README.md#options) for more information on other options.
 
 ```bash
-docker run --rm -v "$PWD:/mnt" alastairhm/ytdown https://www.youtube.com/watch?v=vJLbRjovtro
+docker run --rm -v "$PWD:/mnt" alastairhm/ytdown "https://www.youtube.com/watch?v=vJLbRjovtro"
 ```
