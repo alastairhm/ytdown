@@ -12,6 +12,7 @@ Dates in this file are in format of YYYY-MM-DD (2019-12-13 means 13th of Decembe
 
 ### Updated
 
+* Gitlab Actions
 * Updated to yt-dlp 2022.09.01
 * Updated to version 2020.06.16.1 of downloader
 
