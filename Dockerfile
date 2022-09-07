@@ -1,6 +1,6 @@
-FROM alastairhm/alpine-python3
+FROM ubuntu:22.04
 
-RUN apk add --no-cache --update ffmpeg && \
+RUN apt-get update && apt-get -y upgrade && apt-get -y install git build-essential pip ffmpeg python3 \
     python3 -m pip install -U yt-dlp
 
 WORKDIR /mnt
