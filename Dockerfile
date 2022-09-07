@@ -1,7 +1,7 @@
 FROM alastairhm/alpine-python3
 
 RUN apk add --no-cache --update ffmpeg && \
-    pip3 install --upgrade youtube_dl
+    python3 -m pip install -U yt-dlp
 
 WORKDIR /mnt
-ENTRYPOINT ["youtube-dl"]
+ENTRYPOINT ["yt-dlp"]
