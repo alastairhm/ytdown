@@ -11,6 +11,10 @@ Dates in this file are in format of YYYY-MM-DD (2019-12-13 means 13th of Decembe
 ## Unreleased
 
 * Taskfile, other updates
+* Added `TODO.md` cataloguing issues/improvements found in a repo review (CI publish-on-PR behavior,
+  unpinned yt-dlp/base image versions, image size, README/CHANGELOG inconsistencies)
+* README: fixed broken link, corrected `Youtube-dl` → `yt-dlp` reference, documented the Docker Hub
+  image, added signature footer
 
 ## 2020.06.16.1 2020-07-09
 
